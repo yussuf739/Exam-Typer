@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: ubuntu, monospace;
+}
+body{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+header{
+	max-width: 100%;
+	color: #fff;
+	background: #9ad0bc;
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-shadow: 1px 1.5px 2px #000;
+
+}
+header h2{
+	font-size: 240%;
+	padding-bottom: 10px;
+}
+header p{
+	font-size: 130%;
+}
+div#mainbody{
+	width: 60%;
+	border-right: 10px double #fff;
+	background-color: #9ad0bc23;
+	padding: 15px 0;
+	float: left;
+	box-sizing: border-box;
+	color: #9ad0bc;
+}
+div#mainbody #form-control{
+	width: 94%;
+	margin: 20px auto;
+}
+div#mainbody #form-control span{
+	color: #9ad0bc;
+	font-size: 120%;
+	font-weight: bold;
+}
+div#mainbody input{
+	display: inline-block;
+	border: 1px solid #9ad0bc;
+	color: #9ad0bc;
+	margin: 5px auto;
+	outline: none;
+	padding: 8px;
+	width: 90%;
+	font-size: 115%;
+}
+div#mainbody #btngroup{
+	text-align: center;
+	max-width: 100%;
+}
+div#mainbody button{
+	margin: 5px 15px;
+	font-size: 150%;
+	min-width: 30%;
+	outline: none;
+	border: 5px solid #9ad0bc;
+	padding: 8px;
+	background-color: #9ad0bc;
+	color: #fff;
+	transition: .3s;
+}
+div#mainbody button:hover{
+	background-color: #9ad0bc88;
+}
+#output{
+	background-color: #9ad0bc23;
+	font-family: calibri;
+	line-height: 150%;
+	font-size: 11px;
+	color: #9ad0bc;
+	padding: 15px;
+	width: 40%;
+	float: right;
+	min-height: 78vh;
+	box-sizing: border-box;
+}
+#output h3, #mainbody h3{
+	font-size: 200%;
+	text-align: center;	
+}
+#output p{
+	font-size: 130%;
+}
+footer{
+	width: 100%;
+	box-sizing: border-box;
+	color: #fff;
+	background: #9ad0bc;
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	box-shadow: -1px -1.5px 2px #000;
+}
